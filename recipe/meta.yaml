@@ -1,5 +1,5 @@
 {% set name = "geo-parameters" %}
-{% set version = "0.4.4" %}
+{% set version = "0.4.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/geo_parameters-{{ version }}.tar.gz
-  sha256: 81a3b03fa723fd882132ad95bb85190f6f54b9255266c1db9ae70cb37d04f05a
+  sha256: 902c42ded838450d06d02cfd37b43170142f33caebbd2b9d91214c918b628cb7
 
 build:
   noarch: python
