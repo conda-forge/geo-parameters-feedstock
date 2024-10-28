@@ -20,7 +20,7 @@ requirements:
     - pip
     - setuptools
   run:
-    - python >=3.9, 3.12
+    - python >=3.9,<3.12
     - numpy
     - pint
 
