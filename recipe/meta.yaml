@@ -17,7 +17,7 @@ build:
 requirements:
   host:
     - python >=3.9,<3.12
-    - pip >=24.3.1
+    - pip
     - setuptools
   run:
     - python >=3.9,<3.12
@@ -30,7 +30,7 @@ test:
   commands:
     - pip check
   requires:
-    - pip >=24.3.1
+    - pip
 
 about:
   home: https://github.com/bjorkqvi/geo-parameters
